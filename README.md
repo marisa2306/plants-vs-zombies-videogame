@@ -5,9 +5,9 @@ Technical Requirements:
 
 1. Renders a game in the browser.
 2. It has logic for winning and/or losing
-3. Show feedback to the player in either case.
-4. Include separate HTML / CSS / JavaScript.
-5. Use plain JavaScript for DOM manipulation and HTML canvas for graphics.
+3. Shows feedback to the player in either case.
+4. HTML / CSS / JavaScript.
+5. JavaScript for DOM manipulation and HTML canvas for graphics.
 6. Deployed online using GitHub Pages so that anybody can play it.
 
 Click here and play the game https://marisa2306.github.io/plants-vs-zombies-videogame/
