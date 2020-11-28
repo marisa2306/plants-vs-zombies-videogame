@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: Arial, Helvetica, sans-serif */
+    font-family: 'Creepster', cursive;  
+    
+}
+
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0 ;
+}
+
+p{
+    font-size: 2em;
+}
+
+#background-canvas{
+    background-image: url(../img/background-game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    padding-bottom:0.5%;
+}
+
+.lives{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weapons{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.points{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    margin-right: 1.2em;
+    width: 120px;
+    
+}
+
+.weapons img {
+    width: 100px
+}
+
+.background-canvas img{
+    width: 50px;
+}
+
+/* GAME (canvas)screen */
+
+canvas {
+    display: none;
+    border: 1px solid #666;
+    -webkit-box-shadow: -3px 8px 20px -5px rgb(102, 102, 102); 
+    box-shadow: -3px 8px 20px -5px rgb(102, 102, 102);
+}
+
+
+/* START GAME screen */
+
+.intro {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/start.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    display: block;
+   /* display: none; */
+   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.game-intro {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8% 10%;
+    text-align: center;
+}
+
+.game-intro p {
+    /* font-size: 18px; */
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.logo-img {
+    width: 400px;
+}
+
+.controls-images{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrows-img {
+    width: 150px;
+}
+
+.spacebar-img{
+    padding: 20px;
+    width: 300px;
+}
+
+body button {
+    font-size: 30px;
+    background-color: #e67914;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin: 30px 0;
+    font-family: 'Creepster', cursive;
+    cursor: pointer;
+    text-shadow: rgb(102, 102, 102) 1px 0 10px; 
+}
+
+h2{
+    color:rgb(105, 230, 94);
+    font-size: 1.8em;
+    letter-spacing: 0.3em;
+    text-shadow: rgb(102, 102, 102) 1px 0 10px; 
+}
+
+/* GAME OVER screen */
+
+.over {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/gameover-overlay.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: top;
+    background-attachment: fixed;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0 10%;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.game-over{
+    width: 30%;
+    background-image: url(../img/over-fondo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 6%;
+    background-size:100% 100%;
+
+}
+
+.game-over p{
+    padding: 5% 0;
+    color:rgb(73, 231, 73);
+    text-shadow: rgb(102, 102, 102) 1px 0 10px; 
+    letter-spacing: 0.1em;
+}
+
+.container-over{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+}
+
+.over h2{
+    color:rgb(73, 231, 73);
+    font-size: 3.5em;
+    letter-spacing: 0.3em;
+    margin-top: 0;
+    text-shadow: rgb(102, 102, 102) 1px 0 10px; 
+}
+
+h1{
+    color:rgb(73, 231, 73);
+    font-size: 5em;
+    letter-spacing: 0.3em;
+    text-shadow: rgb(149, 149, 149) 1px 0 10px; 
+}
+
+.try-again {
+    margin: 60px 0;
+}

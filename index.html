@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <title>Plants vs Zombies</title>
+</head>
+
+<body>
+
+    <!-- START GAME INTRO -->
+    <div class="intro">
+        <div class="game-intro">
+            <img src="img/logo.png" alt="game logo" class="logo-img" />
+            <br />
+            <h2>Help your farmer and defend humankind from a Zombie invasion</h2>
+            <button class="start-button">Start Game</button>
+            <p>Use the UP and DOWN arrow to control the player!</p>
+            <p>Use the SPACE BAR to shoot zombies</p>
+            <div class="controls-images">
+            <img src="img/arrows.png" alt="arrows image" class="arrows-img" />
+            <img src="img/space-bar.png" alt="spacebar image" class="spacebar-img" />
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME CANVAS -->
+    <div id="background-canvas">
+
+        <!--SOUND EFFECTS-->
+        <audio class="audio-canvas" src="audio/game.mp3"></audio>
+
+        <audio class="audio-weapon" src="audio/disparo.mp3"></audio>
+        <audio class="audio-enemies" src="audio/enemies.mp3"></audio>
+        <audio class="audio-power-weapon" src="audio/power-weapon.mp3"></audio>
+        <audio class="audio-power-lives" src="audio/power-lives.mp3"></audio>
+        <audio class="audio-dead" src="audio/dead.mp3"></audio>
+
+        <!--CANVAS-->
+        <canvas id="canvas"></canvas>
+
+        <!--POINTS COUNTER-->
+        <div class="container">
+            <div class="lives">
+                <img class="images" src="img/player-lives.png" alt="player lives">
+                <p>Lives: <span></span></p>
+            </div>
+            <div class="weapons">
+                <img class="images" src="img/power.png" alt="power weapon">
+                <p>Bullets: <span></span></p>
+            </div>
+            <div class="points">
+                <img class="images" src="img/zombie-lives.png" alt="zombie lives">
+                <p>Points: <span></span> </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- GAME OVER -->
+    <div class="over">
+        <audio class="audio-over" src="audio/game-over.mp3"></audio>
+        <div class="container-over">
+            <h1>Game over</h1>
+            <h2>The zombies ate your brain!</h2>
+            <div class="game-over">
+                <p>Your score is: <span></span></p>
+            </div>
+            <button class="start-button try-again">TRY AGAIN</button>
+        </div>
+    </div>
+
+    <script src="js/power.js"></script>
+    <script src="js/enemies.js"></script>
+    <script src="js/bullets.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
