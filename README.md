@@ -8,8 +8,8 @@ Ironhack Web Development Bootcamp 3rd week project: a tribute to Plants vs. Zomb
 ## Instructions:
 
 Help your farmer and defend humankind from a Zombie invasion
-Use the UP and DOWN arrow to control the player
-Use the SPACE BAR to shoot zombies
+1. Use the UP and DOWN arrow to control the player
+2. Use the SPACE BAR to shoot zombies
 
 Click here and play the game https://marisa2306.github.io/plants-vs-zombies-videogame/
 
