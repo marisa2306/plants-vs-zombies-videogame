@@ -1,5 +1,6 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-# Plants vs Zombies videogame
+
+# Plants vs. Zombies videogame
 Ironhack Web Development Bootcamp 3rd week project: a tribute to Plants vs. Zombies Videogame by EA Games
 <img src="https://marisa2306.github.io/plants-vs-zombies-videogame/img/logo.png" alt="videogame logo" width="350px"/>
 
