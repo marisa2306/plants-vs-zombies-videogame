@@ -1,6 +1,6 @@
 # Plants vs Zombies videogame
 Ironhack Web Development Bootcamp 3rd week project: a tribute to Plants vs. Zombies Videogame
-![logo][width=350px](https://marisa2306.github.io/plants-vs-zombies-videogame/img/logo.png)
+<img src="https://marisa2306.github.io/plants-vs-zombies-videogame/img/logo.png" alt="videogame logo" width="350px"/>
 
 
 Technical Requirements:
