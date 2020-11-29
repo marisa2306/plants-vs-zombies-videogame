@@ -4,13 +4,14 @@
 Ironhack Web Development Bootcamp 3rd week project: a tribute to Plants vs. Zombies Videogame by EA Games
 <img src="https://marisa2306.github.io/plants-vs-zombies-videogame/img/logo.png" alt="videogame logo" width="350px"/>
 
-Help your farmer and defend humankind from a Zombie invasion
-
-Click here and play the game https://marisa2306.github.io/plants-vs-zombies-videogame/
 
 ## Instructions:
+
+Help your farmer and defend humankind from a Zombie invasion
 Use the UP and DOWN arrow to control the player
 Use the SPACE BAR to shoot zombies
+
+Click here and play the game https://marisa2306.github.io/plants-vs-zombies-videogame/
 
 ## Technical Requirements:
 
